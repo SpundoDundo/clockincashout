@@ -41,7 +41,9 @@
 <meta name="revisit-after" content="7 days">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":["Organization","EducationalOrganization"],"@id":"https://clockincashout.org/#organization","name":"Clock In, Cash Out WY","alternateName":["CICO WY","Clock In Cash Out Wyoming"],"url":"https://clockincashout.org","description":"Free youth-led financial literacy and career readiness program in Laramie, Wyoming.","foundingDate":"2025-06","founder":[{"@type":"Person","name":"Glenn D."},{"@type":"Person","name":"Carl M."},{"@type":"Person","name":"Eliz H."}],"areaServed":{"@type":"State","name":"Wyoming"},"contactPoint":{"@type":"ContactPoint","email":"contact@clockincashout.org"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Clock In, Cash Out WY?","acceptedAnswer":{"@type":"Answer","text":"Clock In, Cash Out WY is a free youth-led financial literacy and career readiness program in Laramie, Wyoming, founded June 2025 by Glenn D., Carl M., and Eliz H."}},{"@type":"Question","name":"Is Clock In, Cash Out WY free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every service is completely free for Wyoming youth ages 4–17."}}]}</script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -76,6 +78,7 @@ nav {
 nav.scrolled{background:rgba(245,247,242,0.95);box-shadow:0 2px 30px rgba(0,0,0,0.06);}
 .nav-logo{font-family:'Playfair Display',serif;font-weight:800;font-size:1.05rem;color:var(--green-dark);text-decoration:none;letter-spacing:-0.5px;line-height:1.2;}
 .nav-logo span{color:var(--gold);}
+.logo-comma{font-size:0.6em;letter-spacing:0;}
 .nav-links{display:flex;gap:2rem;list-style:none;align-items:center;}
 .nav-links a{text-decoration:none;color:var(--text-muted);font-size:0.88rem;font-weight:500;transition:color 0.2s;position:relative;}
 .nav-links a::after{content:'';position:absolute;bottom:-2px;left:0;width:0;height:1.5px;background:var(--mint-deep);transition:width 0.25s ease;}
@@ -130,6 +133,7 @@ nav.scrolled{background:rgba(245,247,242,0.95);box-shadow:0 2px 30px rgba(0,0,0,
   margin-bottom:1.5rem;letter-spacing:-2px;
 }
 .hero h1 .gold{color:var(--gold);display:inline-block;}
+.hero h1 .logo-comma{display:inline;}
 .hero h1 .line2{display:block;}
 
 .hero-sub{
@@ -340,7 +344,7 @@ window.addEventListener('scroll',()=>{
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo">Clock In<span>,</span><br>Cash Out</a>
+  <a href="#" class="nav-logo">Clock In<span class="logo-comma">,</span><br>Cash Out</a>
   <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMenu()">
     <span></span><span></span><span></span>
   </button>
@@ -369,7 +373,7 @@ window.addEventListener('scroll',()=>{
   </div>
   <div class="hero-content">
     <div class="hero-eyebrow"><span class="dot"></span>Laramie, Wyoming — Est. June 2025</div>
-    <h1>Clock In<span class="gold">,</span><span class="line2">Cash Out <span class="gold">WY</span></span></h1>
+    <h1>Clock In<span class="gold logo-comma">,</span><span class="line2">Cash Out <span class="gold">WY</span></span></h1>
     <p class="hero-sub">Wyoming youth helping Wyoming youth. Free resume help, interview prep, and real financial education — from high schoolers who've worked 30 hours a week and figured it out the hard way.</p>
     <div class="hero-buttons">
       <a href="#" id="hero-discord-link" target="_blank" class="btn btn-discord">
@@ -508,7 +512,7 @@ window.addEventListener('scroll',()=>{
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo">Clock In<span>,</span> Cash Out WY</div>
+  <div class="footer-logo">Clock In<span class="logo-comma">,</span> Cash Out WY</div>
   <p>Youth-led financial education & career readiness<br>Laramie, Wyoming — Est. June 2025</p>
   <div class="footer-divider"></div>
   <div class="footer-disclaimer">We are not licensed financial advisors nor is this financial advice.<br><a href="mailto:contact@clockincashout.org" style="color:rgba(255,255,255,0.35);text-decoration:none;">contact@clockincashout.org</a></div>
