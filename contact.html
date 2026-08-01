@@ -54,7 +54,7 @@ nav.scrolled{background:rgba(245,247,242,0.95);box-shadow:0 2px 30px rgba(0,0,0,
 .hero-orb{position:absolute;border-radius:50%;filter:blur(60px);opacity:0.5;animation:orbFloat 8s ease-in-out infinite;}
 .hero-orb-1{width:500px;height:500px;background:radial-gradient(circle,rgba(212,168,67,0.4),transparent);top:-20%;right:-10%;animation-delay:0s;}
 .hero-orb-2{width:400px;height:400px;background:radial-gradient(circle,rgba(255,255,255,0.3),transparent);bottom:-15%;left:-5%;animation-delay:3s;}
-@keyframes orbFloat{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(20px,-15px) scale(1.05);}66%{transform:translate(-10px,20px) scale(0.97);}};
+@keyframes orbFloat{0%,100%{transform:translate(0,0) scale(1);}33%{transform:translate(20px,-15px) scale(1.05);}66%{transform:translate(-10px,20px) scale(0.97);}}
 .hero-mountains{position:absolute;bottom:0;left:0;width:100%;pointer-events:none;}
 .hero-content{max-width:700px;position:relative;z-index:2;}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.3);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.5);padding:0.4rem 1.1rem;border-radius:50px;font-size:0.78rem;font-weight:600;color:var(--green-darker);margin-bottom:1.75rem;letter-spacing:0.8px;text-transform:uppercase;}
@@ -71,7 +71,7 @@ nav.scrolled{background:rgba(245,247,242,0.95);box-shadow:0 2px 30px rgba(0,0,0,
 .btn-discord:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 8px 30px rgba(88,101,242,0.55);background:#4752c4;}
 .btn-discord svg{width:20px;height:20px;flex-shrink:0;}
 .btn-discord::after{content:'';position:absolute;top:-50%;left:-75%;width:50%;height:200%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent);transform:skewX(-20deg);animation:shimmer 3s infinite;}
-@keyframes shimmer{0%{left:-75%;}100%{left:125%;}};
+@keyframes shimmer{0%{left:-75%;}100%{left:125%;}}
 .btn-ghost{background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);color:var(--green-darker);border:1.5px solid rgba(255,255,255,0.5);}
 .btn-ghost:hover{transform:translateY(-3px) scale(1.02);background:rgba(255,255,255,0.35);}
 
@@ -108,7 +108,7 @@ nav.scrolled{background:rgba(245,247,242,0.95);box-shadow:0 2px 30px rgba(0,0,0,
 .bridge h2{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(1.6rem,3vw,2.2rem);color:var(--green-darker);margin-bottom:0.6rem;}
 .bridge p{color:var(--text-muted);font-size:1rem;max-width:420px;margin:0 auto;}
 .bridge-arrow{display:block;margin:1.5rem auto 0;width:36px;height:36px;color:var(--mint-deep);animation:arrowBounce 2s ease infinite;}
-@keyframes arrowBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(6px);}};
+@keyframes arrowBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(6px);}}
 
 /* CONTACT FORM SECTION */
 .contact-section{padding:5rem 2rem 7rem;background:var(--cream);}
