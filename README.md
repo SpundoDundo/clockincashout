@@ -5,7 +5,7 @@ Free youth-led financial literacy and career readiness program based in Laramie,
 **Website:** [clockincashout.org](https://clockincashout.org)  
 **Discord:** [discord.gg/7xTDkXy55Q](https://discord.gg/7xTDkXy55Q)  
 **Contact:** contact@clockincashout.org  
-**Founded:** June 2025 — Glenn D., Carl M., Beau S.
+**Founded:** June 2025 — Glenn D., Carl M., Eliz H.
 
 ---
 
